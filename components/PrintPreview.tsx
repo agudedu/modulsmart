@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { X, Save, LoaderCircle } from 'lucide-react';
-import { ModuleDisplay } from './ModuleDisplay.tsx';
+import { ModuleDisplay } from './ModuleDisplay';
 
 declare const html2pdf: any;
 

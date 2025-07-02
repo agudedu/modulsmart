@@ -1,4 +1,4 @@
-import type { UserInput } from '../types.ts';
+import type { UserInput } from '../types';
 
 export const generateModule = async (userInput: UserInput): Promise<string> => {
   try {

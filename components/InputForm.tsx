@@ -1,5 +1,5 @@
 import React from 'react';
-import type { UserInput } from '../types.ts';
+import type { UserInput } from '../types';
 
 interface InputFormProps {
   userInput: UserInput;

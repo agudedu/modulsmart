@@ -1,10 +1,10 @@
 
 import React, { useState, useCallback } from 'react';
-import { generateModule } from './services/geminiService.ts';
-import type { UserInput } from './types.ts';
-import { InputForm } from './components/InputForm.tsx';
-import { ModuleDisplay } from './components/ModuleDisplay.tsx';
-import { PrintPreview } from './components/PrintPreview.tsx';
+import { generateModule } from './services/geminiService';
+import type { UserInput } from './types';
+import { InputForm } from './components/InputForm';
+import { ModuleDisplay } from './components/ModuleDisplay';
+import { PrintPreview } from './components/PrintPreview';
 import { Sparkles, FileText, Printer, LoaderCircle } from 'lucide-react';
 
 export const App: React.FC = () => {
